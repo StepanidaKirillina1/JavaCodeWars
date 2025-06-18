@@ -14,6 +14,10 @@ public class FindIntegral {
     The coefficient and exponent is always a positive integer.
      */
 
+    public static void main(String[] args) {
+        
+    }
+
     public static String integrate(int coefficient, int exponent) {
         return String.format("%sx^%s", coefficient / (exponent + 1), exponent+1);
     }
